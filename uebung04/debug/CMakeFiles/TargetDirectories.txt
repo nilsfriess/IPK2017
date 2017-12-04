@@ -1,0 +1,3 @@
+/home/nils/Documents/IPK/Uebung04/debug/CMakeFiles/rebuild_cache.dir
+/home/nils/Documents/IPK/Uebung04/debug/CMakeFiles/statistics.dir
+/home/nils/Documents/IPK/Uebung04/debug/CMakeFiles/edit_cache.dir

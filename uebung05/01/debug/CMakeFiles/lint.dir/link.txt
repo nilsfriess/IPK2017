@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblint.a  CMakeFiles/lint.dir/lint.cc.o
+/usr/bin/ranlib liblint.a

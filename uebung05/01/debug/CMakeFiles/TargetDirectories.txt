@@ -1,0 +1,5 @@
+/home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles/edit_cache.dir
+/home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles/checkparans.dir
+/home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles/rebuild_cache.dir
+/home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles/input.dir
+/home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles/lint.dir

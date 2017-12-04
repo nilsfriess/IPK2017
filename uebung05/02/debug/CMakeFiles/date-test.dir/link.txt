@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wconversion -pedantic  -rdynamic CMakeFiles/date-test.dir/main.cc.o  -o date-test libdate.a 
