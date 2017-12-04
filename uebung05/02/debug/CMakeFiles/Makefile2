@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nils/Documents/IPK/Uebung05/02
+CMAKE_SOURCE_DIR = /home/nils/Documents/IPK/uebung05/02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nils/Documents/IPK/Uebung05/02/debug
+CMAKE_BINARY_DIR = /home/nils/Documents/IPK/uebung05/02/debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/date.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/nils/Documents/IPK/Uebung05/02/debug
 CMakeFiles/date.dir/all:
 	$(MAKE) -f CMakeFiles/date.dir/build.make CMakeFiles/date.dir/depend
 	$(MAKE) -f CMakeFiles/date.dir/build.make CMakeFiles/date.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles --progress-num=1,2 "Built target date"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles --progress-num=1,2 "Built target date"
 .PHONY : CMakeFiles/date.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/date.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/date.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/date.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles 0
 .PHONY : CMakeFiles/date.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/date.dir/clean
 CMakeFiles/date-test.dir/all: CMakeFiles/date.dir/all
 	$(MAKE) -f CMakeFiles/date-test.dir/build.make CMakeFiles/date-test.dir/depend
 	$(MAKE) -f CMakeFiles/date-test.dir/build.make CMakeFiles/date-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles --progress-num=3,4 "Built target date-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles --progress-num=3,4 "Built target date-test"
 .PHONY : CMakeFiles/date-test.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/date-test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/date-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/date-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles 0
 .PHONY : CMakeFiles/date-test.dir/rule
 
 # Convenience name for target.

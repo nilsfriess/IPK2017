@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nils/Documents/IPK/Uebung05/01
+CMAKE_SOURCE_DIR = /home/nils/Documents/IPK/uebung05/01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nils/Documents/IPK/Uebung05/01/debug
+CMAKE_BINARY_DIR = /home/nils/Documents/IPK/uebung05/01/debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/input.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/input.dir/flags.make
 
 CMakeFiles/input.dir/input.cc.o: CMakeFiles/input.dir/flags.make
 CMakeFiles/input.dir/input.cc.o: ../input.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/input.dir/input.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/input.dir/input.cc.o -c /home/nils/Documents/IPK/Uebung05/01/input.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nils/Documents/IPK/uebung05/01/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/input.dir/input.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/input.dir/input.cc.o -c /home/nils/Documents/IPK/uebung05/01/input.cc
 
 CMakeFiles/input.dir/input.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/input.dir/input.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nils/Documents/IPK/Uebung05/01/input.cc > CMakeFiles/input.dir/input.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nils/Documents/IPK/uebung05/01/input.cc > CMakeFiles/input.dir/input.cc.i
 
 CMakeFiles/input.dir/input.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/input.dir/input.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nils/Documents/IPK/Uebung05/01/input.cc -o CMakeFiles/input.dir/input.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nils/Documents/IPK/uebung05/01/input.cc -o CMakeFiles/input.dir/input.cc.s
 
 CMakeFiles/input.dir/input.cc.o.requires:
 
@@ -91,7 +91,7 @@ input_EXTERNAL_OBJECTS =
 libinput.a: CMakeFiles/input.dir/input.cc.o
 libinput.a: CMakeFiles/input.dir/build.make
 libinput.a: CMakeFiles/input.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libinput.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nils/Documents/IPK/uebung05/01/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libinput.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/input.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/input.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/input.dir/clean:
 .PHONY : CMakeFiles/input.dir/clean
 
 CMakeFiles/input.dir/depend:
-	cd /home/nils/Documents/IPK/Uebung05/01/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nils/Documents/IPK/Uebung05/01 /home/nils/Documents/IPK/Uebung05/01 /home/nils/Documents/IPK/Uebung05/01/debug /home/nils/Documents/IPK/Uebung05/01/debug /home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles/input.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nils/Documents/IPK/uebung05/01/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nils/Documents/IPK/uebung05/01 /home/nils/Documents/IPK/uebung05/01 /home/nils/Documents/IPK/uebung05/01/debug /home/nils/Documents/IPK/uebung05/01/debug /home/nils/Documents/IPK/uebung05/01/debug/CMakeFiles/input.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/input.dir/depend
 

@@ -1,4 +1,4 @@
-/home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles/rebuild_cache.dir
-/home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles/edit_cache.dir
-/home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles/date.dir
-/home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles/date-test.dir
+/home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles/rebuild_cache.dir
+/home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles/edit_cache.dir
+/home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles/date.dir
+/home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles/date-test.dir

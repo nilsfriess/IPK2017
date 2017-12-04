@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/nils/Documents/IPK/Uebung05/02/date.hh
+/home/nils/Documents/IPK/uebung05/02/date.hh
 iostream
 -
 
-/home/nils/Documents/IPK/Uebung05/02/main.cc
+/home/nils/Documents/IPK/uebung05/02/main.cc
 iostream
 -
 date.hh
-/home/nils/Documents/IPK/Uebung05/02/date.hh
+/home/nils/Documents/IPK/uebung05/02/date.hh
 

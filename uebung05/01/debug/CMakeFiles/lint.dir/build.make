@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nils/Documents/IPK/Uebung05/01
+CMAKE_SOURCE_DIR = /home/nils/Documents/IPK/uebung05/01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nils/Documents/IPK/Uebung05/01/debug
+CMAKE_BINARY_DIR = /home/nils/Documents/IPK/uebung05/01/debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lint.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/lint.dir/flags.make
 
 CMakeFiles/lint.dir/lint.cc.o: CMakeFiles/lint.dir/flags.make
 CMakeFiles/lint.dir/lint.cc.o: ../lint.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lint.dir/lint.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lint.dir/lint.cc.o -c /home/nils/Documents/IPK/Uebung05/01/lint.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nils/Documents/IPK/uebung05/01/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lint.dir/lint.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lint.dir/lint.cc.o -c /home/nils/Documents/IPK/uebung05/01/lint.cc
 
 CMakeFiles/lint.dir/lint.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lint.dir/lint.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nils/Documents/IPK/Uebung05/01/lint.cc > CMakeFiles/lint.dir/lint.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nils/Documents/IPK/uebung05/01/lint.cc > CMakeFiles/lint.dir/lint.cc.i
 
 CMakeFiles/lint.dir/lint.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lint.dir/lint.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nils/Documents/IPK/Uebung05/01/lint.cc -o CMakeFiles/lint.dir/lint.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nils/Documents/IPK/uebung05/01/lint.cc -o CMakeFiles/lint.dir/lint.cc.s
 
 CMakeFiles/lint.dir/lint.cc.o.requires:
 
@@ -91,7 +91,7 @@ lint_EXTERNAL_OBJECTS =
 liblint.a: CMakeFiles/lint.dir/lint.cc.o
 liblint.a: CMakeFiles/lint.dir/build.make
 liblint.a: CMakeFiles/lint.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblint.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nils/Documents/IPK/uebung05/01/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblint.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lint.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lint.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/lint.dir/clean:
 .PHONY : CMakeFiles/lint.dir/clean
 
 CMakeFiles/lint.dir/depend:
-	cd /home/nils/Documents/IPK/Uebung05/01/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nils/Documents/IPK/Uebung05/01 /home/nils/Documents/IPK/Uebung05/01 /home/nils/Documents/IPK/Uebung05/01/debug /home/nils/Documents/IPK/Uebung05/01/debug /home/nils/Documents/IPK/Uebung05/01/debug/CMakeFiles/lint.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nils/Documents/IPK/uebung05/01/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nils/Documents/IPK/uebung05/01 /home/nils/Documents/IPK/uebung05/01 /home/nils/Documents/IPK/uebung05/01/debug /home/nils/Documents/IPK/uebung05/01/debug /home/nils/Documents/IPK/uebung05/01/debug/CMakeFiles/lint.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lint.dir/depend
 

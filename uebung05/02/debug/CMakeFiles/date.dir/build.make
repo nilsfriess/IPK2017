@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nils/Documents/IPK/Uebung05/02
+CMAKE_SOURCE_DIR = /home/nils/Documents/IPK/uebung05/02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nils/Documents/IPK/Uebung05/02/debug
+CMAKE_BINARY_DIR = /home/nils/Documents/IPK/uebung05/02/debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/date.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/date.dir/flags.make
 
 CMakeFiles/date.dir/date.cc.o: CMakeFiles/date.dir/flags.make
 CMakeFiles/date.dir/date.cc.o: ../date.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/date.dir/date.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/date.dir/date.cc.o -c /home/nils/Documents/IPK/Uebung05/02/date.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/date.dir/date.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/date.dir/date.cc.o -c /home/nils/Documents/IPK/uebung05/02/date.cc
 
 CMakeFiles/date.dir/date.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/date.dir/date.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nils/Documents/IPK/Uebung05/02/date.cc > CMakeFiles/date.dir/date.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nils/Documents/IPK/uebung05/02/date.cc > CMakeFiles/date.dir/date.cc.i
 
 CMakeFiles/date.dir/date.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/date.dir/date.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nils/Documents/IPK/Uebung05/02/date.cc -o CMakeFiles/date.dir/date.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nils/Documents/IPK/uebung05/02/date.cc -o CMakeFiles/date.dir/date.cc.s
 
 CMakeFiles/date.dir/date.cc.o.requires:
 
@@ -91,7 +91,7 @@ date_EXTERNAL_OBJECTS =
 libdate.a: CMakeFiles/date.dir/date.cc.o
 libdate.a: CMakeFiles/date.dir/build.make
 libdate.a: CMakeFiles/date.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libdate.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libdate.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/date.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/date.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/date.dir/clean:
 .PHONY : CMakeFiles/date.dir/clean
 
 CMakeFiles/date.dir/depend:
-	cd /home/nils/Documents/IPK/Uebung05/02/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nils/Documents/IPK/Uebung05/02 /home/nils/Documents/IPK/Uebung05/02 /home/nils/Documents/IPK/Uebung05/02/debug /home/nils/Documents/IPK/Uebung05/02/debug /home/nils/Documents/IPK/Uebung05/02/debug/CMakeFiles/date.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nils/Documents/IPK/uebung05/02/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nils/Documents/IPK/uebung05/02 /home/nils/Documents/IPK/uebung05/02 /home/nils/Documents/IPK/uebung05/02/debug /home/nils/Documents/IPK/uebung05/02/debug /home/nils/Documents/IPK/uebung05/02/debug/CMakeFiles/date.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/date.dir/depend
 

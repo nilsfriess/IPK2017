@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nils/Documents/IPK/Uebung05/01/input.cc
+/home/nils/Documents/IPK/uebung05/01/input.cc
 sstream
 -
 algorithm
@@ -14,9 +14,9 @@ algorithm
 iterator
 -
 input.hh
-/home/nils/Documents/IPK/Uebung05/01/input.hh
+/home/nils/Documents/IPK/uebung05/01/input.hh
 
-/home/nils/Documents/IPK/Uebung05/01/input.hh
+/home/nils/Documents/IPK/uebung05/01/input.hh
 string
 -
 istream

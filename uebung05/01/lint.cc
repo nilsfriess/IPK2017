@@ -5,8 +5,7 @@
 #include <string>
 
 bool is_bracket(char c) {
-  return (c == '(') || (c == ')') || (c == '[') || (c == ']') || (c == '{') ||
-         (c == '}');
+  return (c == '(') || (c == ')') || (c == '[') || (c == ']') || (c == '{') || (c == '}');
 }
 
 bool is_matching_closing_bracket(char open, char close) {
