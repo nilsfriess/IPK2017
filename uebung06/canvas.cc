@@ -3,11 +3,16 @@
 #include "point.hh"
 
 Canvas::Canvas(const Point& center, double width, double height, int horPixels, int vertPixels)
-    :_center(center), _width(width), _height(height), _horPixels(horPixels), _vertPixels(vertPixels)
+    : _pixels(horPixels, {{vertPixels}})
+    , _center(center)
+    , _width(width)
+    , _height(height)
+    , _horPixels(horPixels)
+    , _vertPixels(vertPixels)
 {}
 
 Point Canvas::coord(int i, int j) const {
-    if (i<=0 || i>=_horPixels || j<=0 || j>=_vertPixels)
+    if (i<0 || i>=_horPixels || j<0 || j>=_vertPixels) 
         return Point();
 
     Point bottomLeft(

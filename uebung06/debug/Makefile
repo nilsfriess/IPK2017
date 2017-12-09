@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named pgm
+
+# Build rule for target.
+pgm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pgm
+.PHONY : pgm
+
+# fast build rule for target.
+pgm/fast:
+	$(MAKE) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/build
+.PHONY : pgm/fast
+
+#=============================================================================
 # Target rules for targets named pixel
 
 # Build rule for target.
@@ -203,6 +216,33 @@ main.cc.s:
 	$(MAKE) -f CMakeFiles/pixel.dir/build.make CMakeFiles/pixel.dir/main.cc.s
 .PHONY : main.cc.s
 
+pgm.o: pgm.cc.o
+
+.PHONY : pgm.o
+
+# target to build an object file
+pgm.cc.o:
+	$(MAKE) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/pgm.cc.o
+.PHONY : pgm.cc.o
+
+pgm.i: pgm.cc.i
+
+.PHONY : pgm.i
+
+# target to preprocess a source file
+pgm.cc.i:
+	$(MAKE) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/pgm.cc.i
+.PHONY : pgm.cc.i
+
+pgm.s: pgm.cc.s
+
+.PHONY : pgm.s
+
+# target to generate assembly for a file
+pgm.cc.s:
+	$(MAKE) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/pgm.cc.s
+.PHONY : pgm.cc.s
+
 point.o: point.cc.o
 
 .PHONY : point.o
@@ -237,6 +277,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... pgm"
 	@echo "... pixel"
 	@echo "... point"
 	@echo "... rebuild_cache"
@@ -247,6 +288,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pgm.o"
+	@echo "... pgm.i"
+	@echo "... pgm.s"
 	@echo "... point.o"
 	@echo "... point.i"
 	@echo "... point.s"

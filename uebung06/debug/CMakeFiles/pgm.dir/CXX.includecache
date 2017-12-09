@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nils/Documents/IPK/uebung06/pgm.cc
+fstream
+-
+cmath
+-
+pgm.hh
+/home/nils/Documents/IPK/uebung06/pgm.hh
+
+/home/nils/Documents/IPK/uebung06/pgm.hh
+vector
+-
+string
+-
+

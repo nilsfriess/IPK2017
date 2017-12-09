@@ -11,6 +11,8 @@ public:
     double x() const { return _x; }
     double y() const { return _y; }  
 
+    bool operator==(const Point &other);
+
 private:
     double _x = 0;
     double _y = 0;

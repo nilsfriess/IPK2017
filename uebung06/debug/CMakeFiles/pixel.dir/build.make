@@ -92,6 +92,7 @@ pixel: CMakeFiles/pixel.dir/main.cc.o
 pixel: CMakeFiles/pixel.dir/build.make
 pixel: libpoint.a
 pixel: libcanvas.a
+pixel: libpgm.a
 pixel: CMakeFiles/pixel.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nils/Documents/IPK/uebung06/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pixel"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pixel.dir/link.txt --verbose=$(VERBOSE)

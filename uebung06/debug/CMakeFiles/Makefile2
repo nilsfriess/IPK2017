@@ -60,14 +60,52 @@ CMAKE_SOURCE_DIR = /home/nils/Documents/IPK/uebung06
 CMAKE_BINARY_DIR = /home/nils/Documents/IPK/uebung06/debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/pgm.dir
+
+# All Build rule for target.
+CMakeFiles/pgm.dir/all:
+	$(MAKE) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/depend
+	$(MAKE) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nils/Documents/IPK/uebung06/debug/CMakeFiles --progress-num=3,4 "Built target pgm"
+.PHONY : CMakeFiles/pgm.dir/all
+
+# Include target in all.
+all: CMakeFiles/pgm.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pgm.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/uebung06/debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pgm.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/uebung06/debug/CMakeFiles 0
+.PHONY : CMakeFiles/pgm.dir/rule
+
+# Convenience name for target.
+pgm: CMakeFiles/pgm.dir/rule
+
+.PHONY : pgm
+
+# clean rule for target.
+CMakeFiles/pgm.dir/clean:
+	$(MAKE) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/clean
+.PHONY : CMakeFiles/pgm.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pgm.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/pixel.dir
 
 # All Build rule for target.
-CMakeFiles/pixel.dir/all: CMakeFiles/canvas.dir/all
 CMakeFiles/pixel.dir/all: CMakeFiles/point.dir/all
+CMakeFiles/pixel.dir/all: CMakeFiles/canvas.dir/all
+CMakeFiles/pixel.dir/all: CMakeFiles/pgm.dir/all
 	$(MAKE) -f CMakeFiles/pixel.dir/build.make CMakeFiles/pixel.dir/depend
 	$(MAKE) -f CMakeFiles/pixel.dir/build.make CMakeFiles/pixel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nils/Documents/IPK/uebung06/debug/CMakeFiles --progress-num=3,4 "Built target pixel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nils/Documents/IPK/uebung06/debug/CMakeFiles --progress-num=5,6 "Built target pixel"
 .PHONY : CMakeFiles/pixel.dir/all
 
 # Include target in all.
@@ -77,7 +115,7 @@ all: CMakeFiles/pixel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pixel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/uebung06/debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/uebung06/debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pixel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nils/Documents/IPK/uebung06/debug/CMakeFiles 0
 .PHONY : CMakeFiles/pixel.dir/rule
@@ -104,7 +142,7 @@ clean: CMakeFiles/pixel.dir/clean
 CMakeFiles/point.dir/all:
 	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/depend
 	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nils/Documents/IPK/uebung06/debug/CMakeFiles --progress-num=5,6 "Built target point"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nils/Documents/IPK/uebung06/debug/CMakeFiles --progress-num=7,8 "Built target point"
 .PHONY : CMakeFiles/point.dir/all
 
 # Include target in all.

@@ -6,7 +6,8 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wconversion -pedantic")
 
 add_library(point point.cc)
 add_library(canvas canvas.cc)
+add_library(pgm pgm.cc)
 
 add_executable(pixel main.cc)
 
-target_link_libraries(pixel point canvas)
+target_link_libraries(pixel point canvas pgm)

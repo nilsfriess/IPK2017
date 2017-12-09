@@ -38,6 +38,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/pgm.dir/DependInfo.cmake"
   "CMakeFiles/pixel.dir/DependInfo.cmake"
   "CMakeFiles/point.dir/DependInfo.cmake"
   "CMakeFiles/canvas.dir/DependInfo.cmake"

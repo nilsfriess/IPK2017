@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nils/Documents/IPK/uebung06/canvas.hh
+point.hh
+/home/nils/Documents/IPK/uebung06/point.hh
+vector
+-
+
+/home/nils/Documents/IPK/uebung06/main.cc
+canvas.hh
+/home/nils/Documents/IPK/uebung06/canvas.hh
+iostream
+-
+cmath
+-
+vector
+-
+pgm.hh
+/home/nils/Documents/IPK/uebung06/pgm.hh
+
+/home/nils/Documents/IPK/uebung06/pgm.hh
+vector
+-
+string
+-
+
+/home/nils/Documents/IPK/uebung06/point.hh
+
