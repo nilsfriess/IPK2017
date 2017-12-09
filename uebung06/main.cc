@@ -9,13 +9,12 @@
 double f(double x, double y);
 
 int main() {
+    int pixelWidth = 8000, pixelHeight = 4500;
 
-    Canvas c = Canvas(Point(0, 0), 4, 3, 4000, 3000);
+    Canvas c = Canvas(Point(0, 0), 4, 3, pixelWidth, pixelHeight);
 
     for ( unsigned int i = 0 ; i < c._pixels.size() ; i++ )
-        c._pixels[i].resize(3000);
-
-    std::cout << c._pixels[0].size() << std::endl;
+        c._pixels[i].resize(pixelHeight);
 
     for (unsigned i=0; i<c._pixels.size(); i++) {
         for (unsigned j=0; j<c._pixels[i].size(); j++) {
