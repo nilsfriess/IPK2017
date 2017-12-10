@@ -11,11 +11,17 @@ canvas.hh
 /home/nils/Documents/IPK/uebung06/canvas.hh
 point.hh
 /home/nils/Documents/IPK/uebung06/point.hh
+iostream
+-
+vector
+-
 
 /home/nils/Documents/IPK/uebung06/canvas.hh
 point.hh
 /home/nils/Documents/IPK/uebung06/point.hh
 vector
+-
+functional
 -
 
 /home/nils/Documents/IPK/uebung06/point.hh
