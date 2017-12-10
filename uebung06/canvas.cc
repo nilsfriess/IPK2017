@@ -56,17 +56,9 @@ int Canvas::pixel(int i, int j) {
   if (i < 0 || i > _horPixels || j < 0 || j > _vertPixels)
     return 0;
 
-  return (int)(_pixels[i][j] * 65535 / _maxVal);
+  return (int)(_pixels[i][j] * 255 / _maxVal);
 }
 
 bool Canvas::writePng(std::string fileName) {
-  std::ofstream file;
-  file.open(fileName, std::ios::binary);
 
-  if (file.is_open()) {
-
-    file.close();
-  } else {
-    return false;
-  }
 }
