@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wconversion -pedantic  -rdynamic CMakeFiles/words.dir/main.cc.o  -o words libwordcount.a 

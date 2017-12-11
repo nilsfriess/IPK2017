@@ -1,0 +1,4 @@
+/home/nils/Documents/IPK/uebung07/debug/CMakeFiles/rebuild_cache.dir
+/home/nils/Documents/IPK/uebung07/debug/CMakeFiles/edit_cache.dir
+/home/nils/Documents/IPK/uebung07/debug/CMakeFiles/wordcount.dir
+/home/nils/Documents/IPK/uebung07/debug/CMakeFiles/words.dir

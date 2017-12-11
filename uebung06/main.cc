@@ -16,12 +16,15 @@ int main() {
     c.fill([](int x, int y) -> double {
         if (x == 0 || y == 0) return 0;
 
-        double ret = (std::sin(1.0/x) * std::sin(1.0/y));
+        //return x/2.0 + y/2.0;
+
+        double ret = (std::sin(1.0/x) * std::sin(1.0/y)) + 1;
         if (ret < 0)
             return 0;
         return ret;
     }); 
 
+    //c.print();
 
     bool pngSuccess = c.writePng("/home/nils/testPng.png");
 
