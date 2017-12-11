@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/nils/Documents/IPK/uebung06/debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named canvas
+
+# Build rule for target.
+canvas: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 canvas
+.PHONY : canvas
+
+# fast build rule for target.
+canvas/fast:
+	$(MAKE) -f CMakeFiles/canvas.dir/build.make CMakeFiles/canvas.dir/build
+.PHONY : canvas/fast
+
+#=============================================================================
+# Target rules for targets named pngHelper
+
+# Build rule for target.
+pngHelper: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pngHelper
+.PHONY : pngHelper
+
+# fast build rule for target.
+pngHelper/fast:
+	$(MAKE) -f CMakeFiles/pngHelper.dir/build.make CMakeFiles/pngHelper.dir/build
+.PHONY : pngHelper/fast
+
+#=============================================================================
+# Target rules for targets named point
+
+# Build rule for target.
+point: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 point
+.PHONY : point
+
+# fast build rule for target.
+point/fast:
+	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/build
+.PHONY : point/fast
+
+#=============================================================================
 # Target rules for targets named pgm
 
 # Build rule for target.
@@ -135,32 +174,6 @@ pixel: cmake_check_build_system
 pixel/fast:
 	$(MAKE) -f CMakeFiles/pixel.dir/build.make CMakeFiles/pixel.dir/build
 .PHONY : pixel/fast
-
-#=============================================================================
-# Target rules for targets named point
-
-# Build rule for target.
-point: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 point
-.PHONY : point
-
-# fast build rule for target.
-point/fast:
-	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/build
-.PHONY : point/fast
-
-#=============================================================================
-# Target rules for targets named canvas
-
-# Build rule for target.
-canvas: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 canvas
-.PHONY : canvas
-
-# fast build rule for target.
-canvas/fast:
-	$(MAKE) -f CMakeFiles/canvas.dir/build.make CMakeFiles/canvas.dir/build
-.PHONY : canvas/fast
 
 canvas.o: canvas.cc.o
 
@@ -243,6 +256,33 @@ pgm.cc.s:
 	$(MAKE) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/pgm.cc.s
 .PHONY : pgm.cc.s
 
+pngHelper.o: pngHelper.cc.o
+
+.PHONY : pngHelper.o
+
+# target to build an object file
+pngHelper.cc.o:
+	$(MAKE) -f CMakeFiles/pngHelper.dir/build.make CMakeFiles/pngHelper.dir/pngHelper.cc.o
+.PHONY : pngHelper.cc.o
+
+pngHelper.i: pngHelper.cc.i
+
+.PHONY : pngHelper.i
+
+# target to preprocess a source file
+pngHelper.cc.i:
+	$(MAKE) -f CMakeFiles/pngHelper.dir/build.make CMakeFiles/pngHelper.dir/pngHelper.cc.i
+.PHONY : pngHelper.cc.i
+
+pngHelper.s: pngHelper.cc.s
+
+.PHONY : pngHelper.s
+
+# target to generate assembly for a file
+pngHelper.cc.s:
+	$(MAKE) -f CMakeFiles/pngHelper.dir/build.make CMakeFiles/pngHelper.dir/pngHelper.cc.s
+.PHONY : pngHelper.cc.s
+
 point.o: point.cc.o
 
 .PHONY : point.o
@@ -276,12 +316,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... pgm"
-	@echo "... pixel"
+	@echo "... canvas"
+	@echo "... pngHelper"
 	@echo "... point"
 	@echo "... rebuild_cache"
-	@echo "... canvas"
+	@echo "... pgm"
+	@echo "... pixel"
+	@echo "... edit_cache"
 	@echo "... canvas.o"
 	@echo "... canvas.i"
 	@echo "... canvas.s"
@@ -291,6 +332,9 @@ help:
 	@echo "... pgm.o"
 	@echo "... pgm.i"
 	@echo "... pgm.s"
+	@echo "... pngHelper.o"
+	@echo "... pngHelper.i"
+	@echo "... pngHelper.s"
 	@echo "... point.o"
 	@echo "... point.i"
 	@echo "... point.s"

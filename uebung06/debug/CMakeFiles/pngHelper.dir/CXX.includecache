@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nils/Documents/IPK/uebung06/pngHelper.cc
+pngHelper.hh
+/home/nils/Documents/IPK/uebung06/pngHelper.hh
+string
+-
+stdlib.h
+-
+stdio.h
+-
+png.h
+-
+vector
+-
+
+/home/nils/Documents/IPK/uebung06/pngHelper.hh
+string
+-
+

@@ -17,6 +17,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/nils/Documents/IPK/uebung06/debug/CMakeFiles/point.dir/DependInfo.cmake"
   "/home/nils/Documents/IPK/uebung06/debug/CMakeFiles/canvas.dir/DependInfo.cmake"
   "/home/nils/Documents/IPK/uebung06/debug/CMakeFiles/pgm.dir/DependInfo.cmake"
+  "/home/nils/Documents/IPK/uebung06/debug/CMakeFiles/pngHelper.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -17,7 +17,7 @@ public:
 
   void print();
 
-  bool writePng(std::string fileName);
+  bool writePng(const std::string &fileName);
 
 private:
   const Point _center;

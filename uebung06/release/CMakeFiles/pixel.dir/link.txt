@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wconversion -pedantic -O3 -DNDEBUG  -rdynamic CMakeFiles/pixel.dir/main.cc.o  -o pixel libpoint.a libcanvas.a libpgm.a libpngHelper.a -lpng 

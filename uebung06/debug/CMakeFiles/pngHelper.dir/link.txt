@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpngHelper.a  CMakeFiles/pngHelper.dir/pngHelper.cc.o
+/usr/bin/ranlib libpngHelper.a

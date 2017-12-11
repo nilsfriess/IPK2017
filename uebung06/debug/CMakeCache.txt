@@ -167,6 +167,9 @@ pixel_BINARY_DIR:STATIC=/home/nils/Documents/IPK/uebung06/debug
 pixel_SOURCE_DIR:STATIC=/home/nils/Documents/IPK/uebung06
 
 //Dependencies for target
+pngHelper_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 point_LIB_DEPENDS:STATIC=
 
 

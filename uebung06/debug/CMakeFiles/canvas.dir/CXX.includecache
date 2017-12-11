@@ -13,8 +13,16 @@ point.hh
 /home/nils/Documents/IPK/uebung06/point.hh
 iostream
 -
+string
+-
 vector
 -
+png.h
+-
+stdio.h
+-
+pngHelper.hh
+/home/nils/Documents/IPK/uebung06/pngHelper.hh
 
 /home/nils/Documents/IPK/uebung06/canvas.hh
 point.hh
@@ -22,6 +30,12 @@ point.hh
 vector
 -
 functional
+-
+string
+-
+
+/home/nils/Documents/IPK/uebung06/pngHelper.hh
+string
 -
 
 /home/nils/Documents/IPK/uebung06/point.hh
