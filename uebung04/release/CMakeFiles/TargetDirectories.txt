@@ -1,3 +1,0 @@
-/home/nils/Documents/IPK/Uebung04/release/CMakeFiles/rebuild_cache.dir
-/home/nils/Documents/IPK/Uebung04/release/CMakeFiles/statistics.dir
-/home/nils/Documents/IPK/Uebung04/release/CMakeFiles/edit_cache.dir

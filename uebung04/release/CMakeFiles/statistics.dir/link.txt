@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -pedantic -O3 -DNDEBUG  -rdynamic CMakeFiles/statistics.dir/io.cc.o CMakeFiles/statistics.dir/main.cc.o  -o statistics 

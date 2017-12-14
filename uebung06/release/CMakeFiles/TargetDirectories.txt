@@ -1,7 +1,0 @@
-/home/nils/Documents/IPK/uebung06/release/CMakeFiles/canvas.dir
-/home/nils/Documents/IPK/uebung06/release/CMakeFiles/pngHelper.dir
-/home/nils/Documents/IPK/uebung06/release/CMakeFiles/point.dir
-/home/nils/Documents/IPK/uebung06/release/CMakeFiles/rebuild_cache.dir
-/home/nils/Documents/IPK/uebung06/release/CMakeFiles/pgm.dir
-/home/nils/Documents/IPK/uebung06/release/CMakeFiles/pixel.dir
-/home/nils/Documents/IPK/uebung06/release/CMakeFiles/edit_cache.dir

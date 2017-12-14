@@ -1,2 +1,0 @@
-/usr/bin/ar qc libpgm.a  CMakeFiles/pgm.dir/pgm.cc.o
-/usr/bin/ranlib libpgm.a
