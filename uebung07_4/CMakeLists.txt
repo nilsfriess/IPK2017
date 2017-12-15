@@ -4,9 +4,9 @@ project(pixel LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wconversion -pedantic")
 
-add_library(sanitizer sanitizeword.cc)
+add_library(histogram histogram.cc)
 
-add_executable(words word.hh main.cc)
+add_executable(hist main.cc)
 
-target_link_libraries(words sanitizer)
+target_link_libraries(hist histogram)
 
